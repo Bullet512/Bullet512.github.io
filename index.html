@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="layout/style.css">
+  
 </head>
-<header>
-    My Portfolio
-</header>
 <body>
-   <h1 style="color: aquamarine;">hello there</h1> 
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>My Portfolio</h1>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Brief biographical information goes here.</p>
+    <img src="resouces/profile-photo.jpg" alt="Profile Photo" class="profile">
+    <p>
+      <strong>Name:</strong> Yassin Khalaf<br>
+      <strong>Address:</strong> 2 S Swarthmore Ave, PA<br>
+      <strong>Phone:</strong> 484 795 8268<br>
+      <strong>Email:</strong> ykhalaf0@gmail.com
+    </p>
+    <p>
+      My Professional Social Media<br>
+      <a href="https://github.com/Bullet512"><img src="github-icon.png" alt="github"></a><br>
+      <a href="https://linkedin.com/in/[YourLinkedInUsername]"><img src="resouces/linkedin-icon.png"alt="linkedin" class="logo"></a>
+    </p>
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML
+        <progress value="80" max="100"></progress> 
+      </li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <!-- Add more skills as needed -->
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+      <h3>Project 1</h3>
+      <a href="https://github.com/[YourGitHubUsername]/project1">
+        <img src="project1-screenshot.jpg" alt="Project 1 Screenshot">
+      </a>
+      <p>Skills/Technologies used: HTML, CSS, JavaScript</p>
+    </article>
+
+    <article>
+      <h3>Project 2</h3>
+      <a href="https://github.com/[YourGitHubUsername]/project2">
+        <img src="project2-screenshot.jpg" alt="Project 2 Screenshot">
+      </a>
+      <p>Skills/Technologies used: HTML, CSS, JavaScript</p>
+    </article>
+
+    <article>
+      <h3>Project 3</h3>
+      <a href="https://github.com/[YourGitHubUsername]/project3">
+        <img src="project3-screenshot.jpg" alt="Project 3 Screenshot">
+      </a>
+      <p>Skills/Technologies used: HTML, CSS, JavaScript</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>

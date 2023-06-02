@@ -1,0 +1,53 @@
+/* Grid Layout */
+#container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+header, nav, main, footer {
+  grid-column: 1;
+}
+
+section {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Grid Layout for Projects */
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+article {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
